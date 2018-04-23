@@ -1,0 +1,23 @@
+/* console.log("conntected"); */
+/* give width of bg of green */
+/* height 100 */
+/* width 100 */
+
+var div = document.getElementbyid('my-div')
+div.style.width = '100px';
+div.style.height = '100px';
+div.style.background = 'green';
+
+/* on click */
+/* change the color of the div to red */
+/* change the height to 480px */
+
+fuction changeColor(){
+  console.log('working');
+};
+
+var div = document.getElementbyid('my-div')
+div.style.width = '100px';
+div.style.height = '100px';
+div.style.background = 'red';
+div.style.transition = '2s';
